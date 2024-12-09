@@ -1,0 +1,18 @@
+
+$primary		: #ffc107;
+$secondary		: #64b6ac;
+$light 			: #EEE5E9;
+$dark			: #293132;
+$danger			: #ff4136;
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+);
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+
